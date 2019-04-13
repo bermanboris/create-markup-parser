@@ -62,3 +62,5 @@ export function createMarkupParser(transformers: Transformers): MarkupParser {
 
   return { parse }
 }
+
+export default createMarkupParser
