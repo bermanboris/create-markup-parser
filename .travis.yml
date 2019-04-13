@@ -31,9 +31,6 @@ jobs:
         - npm install
       script:
         - npm run test:prod
-      after_success:
-        # Upload coverage if the tests are running green
-        - npm run test:coverage
 
     - stage: release
       # Advanced: optionally overwrite your default `script` step to skip the tests
