@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bermanboris/create-markup-parser.svg?branch=master)](https://travis-ci.org/bermanboris/create-markup-parser)
+
 # Create Markup Parser
 
 Building your markup language was never been that easy. This library is built using Non-deterministic Finite Automata concepts in mind, which simplifies the readability and maintainability of the source code.
