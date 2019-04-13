@@ -3,10 +3,7 @@ language: node_js
 install:
   - yarn
 
-cache:
-  yarn: true
-  directories:
-    - node_modules
+cache: yarn
 
 node_js:
   - '10'
@@ -40,4 +37,5 @@ jobs:
         provider: script
         skip_cleanup: true
         script:
+          - yarn build
           - yarn semantic-release
