@@ -8,6 +8,7 @@ node_js:
   - '8'
 
 stages:
+  - name: install
   - name: test
   - name: build
   - name: release
@@ -19,12 +20,13 @@ jobs:
       script: yarn install
       skip_cleanup: true
 
-      - stage: test
+    - stage: test
       script: yarn test:prod
       skip_cleanup: true
 
     - stage: build
       script: yarn build
+      skip_cleanup: true
 
     - stage: release
       deploy:
