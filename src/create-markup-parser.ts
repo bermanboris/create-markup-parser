@@ -12,6 +12,7 @@ export interface MarkupParser {
   /**
    * Parse user text using previously provided text transformers
    * @param input - Text that has to be processed by the parser
+   * @returns Text processed by the transformers
    */
   parse: (input: string) => string
 }
