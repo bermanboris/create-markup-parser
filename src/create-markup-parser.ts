@@ -1,6 +1,6 @@
 /**
  * Transformer function responsible for transforming every single character
- * @param {string} character - Character from the text that has to be parsed
+ * @param character - Character from the text that has to be parsed
  */
 export type Transformer = (character: string) => string | undefined
 
@@ -9,6 +9,10 @@ export interface Transformers {
 }
 
 export interface MarkupParser {
+  /**
+   * Parse user text using previously provided text transformers
+   * @param input - Text that has to be processed by the parser
+   */
   parse: (input: string) => string
 }
 
