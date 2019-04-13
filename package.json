@@ -124,8 +124,5 @@
     "tslint-config-standard": "^8.0.1",
     "typedoc": "^0.14.2",
     "typescript": "^3.3.4000"
-  },
-  "publishConfig": {
-    "access": "restricted"
   }
 }
