@@ -23,15 +23,15 @@ jobs:
   include:
     - stage: test
       install:
-        - npm install
+        - yarn install
       script:
-        - npm run test:prod
+        - yarn test:prod
 
     - stage: build
       install:
-        - npm install
+        - yarn install
       script:
-        - npm run build
+        - yarn build
 
     - stage: release
       # Advanced: optionally overwrite your default `script` step to skip the tests
@@ -40,4 +40,4 @@ jobs:
         provider: script
         skip_cleanup: true
         script:
-          - npm run semantic-release
+          - yarn semantic-release
