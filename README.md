@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/bermanboris/create-markup-parser.svg?branch=master)](https://travis-ci.org/bermanboris/create-markup-parser)
-[![npm version](https://badge.fury.io/js/create-markup-parser.svg)](https://badge.fury.io/js/create-markup-parser)
+[![npm version](https://badge.fury.io/js/create-markup-parser.svg)](https://www.npmjs.com/package/create-markup-parser)
 
 # Create Markup Parser
 
