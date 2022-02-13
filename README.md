@@ -23,7 +23,7 @@ import { createMarkupParser } from 'create-markup-parser'
 // Create custom markup parser
 const parser = createMarkupParser({
   '^': character => character.toUpperCase(),
-  _: character => character.toLowerCase(),
+  '_': character => character.toLowerCase(),
   '#': () => undefined
 })
 
